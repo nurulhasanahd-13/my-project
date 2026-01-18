@@ -54,7 +54,7 @@ Pastikan perangkat telah terpasang:
 
    ```
    http://localhost/phpmyadmin/
-   ``
+   ```
 3. Klik menu **Baru**.
 4. Buat database dengan nama:
 
@@ -84,4 +84,5 @@ Pastikan perangkat telah terpasang:
 
 * **Username** : diannurul
 * **Password** : 1234
+
 
