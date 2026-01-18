@@ -3,56 +3,85 @@ Aplikasi Kasir Berbasis Web ini adalah sistem yang digunakan untuk membantu pros
 
 Aplikasi ini cocok digunakan untuk toko kecil hingga menengah karena memiliki fitur dasar kasir yang sederhana namun fungsional.
 
-# User Manual
+## ⭐ Fitur Utama
 
-### A. Login
+* Manajemen Data Produk dan Stok
+* Transaksi Penjualan (Kasir)
+* Perhitungan Total Pembayaran Otomatis
+* Manajemen Pelanggan
+* Laporan Penjualan
+* Manajemen Pengguna (Admin dan Kasir)
+* Sistem Login dan Logout
 
-1. Buka aplikasi melalui browser.
-2. Masukkan **username** dan **password**.
-3. Klik tombol **Login**.
-4. Jika data yang dimasukkan benar, pengguna akan diarahkan ke halaman **Dashboard**.
+## 🛠️ Teknologi yang Digunakan
 
-### B. Dashboard
+* PHP
+* MySQL
+* HTML
+* CSS
+* JavaScript
+* Bootstrap
+* XAMPP (Apache & MySQL)
 
-1. Menampilkan ringkasan informasi aplikasi.
-2. Menu navigasi tersedia pada **sidebar** untuk mengakses fitur lainnya.
+# 📂 Cara Instalasi dan Penggunaan Aplikasi
 
-### C. Manajemen Produk
+## 1️⃣ Persiapan
 
-1. Pilih menu **Produk**.
-2. Untuk menambah produk:
+Pastikan perangkat telah terpasang:
 
-   * Klik tombol **Tambah Produk**.
-   * Isi data produk seperti **nama produk, harga, stok**, dan **unggah gambar**.
-   * Klik tombol **Simpan**.
-3. Untuk mengedit produk:
+* **XAMPP**
+* **Browser** (Google Chrome / Mozilla Firefox / Microsoft Edge)
 
-   * Klik tombol **Edit** pada produk yang dipilih.
-   * Ubah data produk.
-   * Klik tombol **Update**.
-4. Untuk menghapus produk:
+## 2️⃣ Ekstrak dan Pindahkan File
 
-   * Klik tombol **Hapus** pada produk yang ingin dihapus.
+1. Ekstrak file aplikasi **app_kasir_dian.zip**.
+2. Akan muncul folder dengan nama:
+   **app_kasir_dian**
+3. Salin folder tersebut ke direktori:
+   **C:\xampp\htdocs\**
+   
+## 3️⃣ Menjalankan XAMPP
 
-### D. Transaksi Penjualan
+1. Buka **XAMPP Control Panel**.
+2. Jalankan layanan berikut:
+   * ✅ Apache
+   * ✅ MySQL
 
-1. Pilih menu **Penjualan**.
-2. Pilih produk yang akan dijual.
-3. Masukkan jumlah barang (**quantity/qty**).
-4. Sistem akan menghitung total harga secara otomatis.
-5. Klik tombol **Simpan** untuk menyimpan transaksi.
+## 4️⃣ Membuat Database
 
-### E. Manajemen User (Admin)
+1. Buka browser.
+2. Akses alamat:
 
-1. Pilih menu **User**.
-2. Tambah, ubah, atau hapus data pengguna.
-3. Tentukan **role pengguna** sebagai **Admin** atau **Kasir**.
+   ```
+   http://localhost/phpmyadmin/
+   ``
+3. Klik menu **Baru**.
+4. Buat database dengan nama:
 
-### F. Logout
+   **db_kasir**
 
-1. Klik menu **Logout**.
-2. Sistem akan mengakhiri sesi pengguna dan kembali ke halaman **Login**.
+## 5️⃣ Impor Database
 
+1. Pilih database **kasir_dian**.
+2. Klik tab **Impor**.
+3. Pilih file database berekstensi **.sql** dari folder aplikasi **app_kasir_dian**.
+4. Klik tombol **Kirim / Go** untuk memulai impor.
 
+ 
+## 6️⃣ Menjalankan Aplikasi
 
+1. Buka browser.
+2. Akses alamat:
+
+   ```
+   http://localhost/app_kasir_dian
+   ```
+3. Aplikasi Kasir Dian siap digunakan.
+
+---
+
+# 🔐 Akun Login Default
+
+* **Username** : diannurul
+* **Password** : 1234
 
